@@ -1,0 +1,53 @@
+#intro {
+  background: url("../img/aipalb.png") no-repeat center center;
+  background-size: cover;
+}
+
+.top-nav-collapse {
+  background-color: #3949ab !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  /*background: transparent !important;
+*/}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #4a0083 !important;
+  }
+}
+
+#intro .h6 {
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.hm-gradient .full-bg-img {
+ /* background: rgba(255,255,255, 0.7);
+  background: linear-gradient(45deg, rgba(255,255,255, 0.7), rgba(225,255,255, 0.9) 100%);
+*/}
+
+@media (max-width: 450px) {
+  .margins {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+#pricing .lead {
+  opacity: 0.7;
+}
+
+#pricing .card-image {
+  background: url("../img/aipal1.jpg") no-repeat center center;
+}
+
+#pricing ul li {
+  font-size: 1.1em;
+}
+
+footer .widget {
+    padding: 0;
+    margin: 30px 0 30px 0;
+    overflow: hidden
+    }
